@@ -29,7 +29,7 @@ const Header = ({ siteTitle, menu }) => (
       </h1>
       <nav>
         {menu.map(item => (
-          <Link to={`/${item.object_slug}`}>{item.title}</Link>
+          <Link to={`/${item.object_slug}`} key={item.object_slug} >{item.title}</Link>
         ))}
       </nav>
     </div>
