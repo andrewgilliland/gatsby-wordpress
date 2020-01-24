@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `WordPress + Gatsby`,
     description: `Headless wordpress plus Gatsby.`,
-    author: `@gatsbyjs`,
+    author: `@andy_gilliland`,
   },
   plugins: [
     `gatsby-plugin-netlify`,
